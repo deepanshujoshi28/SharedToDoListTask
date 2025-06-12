@@ -1,0 +1,14 @@
+
+
+.home-main{
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+}
+
+.home-menu{
+    min-width: 290px;
+}
+.home-content{
+    flex: 1;
+}

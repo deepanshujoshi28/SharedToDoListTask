@@ -1,0 +1,79 @@
+.side-nav-main {
+  position: fixed;
+  background: #eeeeee;
+  background: #fff7f7;
+  top: 15px;
+  left: 15px;
+  border-radius: 8px;
+  bottom: 15px;
+  width: 290px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-nav-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.side-nav-button {
+  width: 100%;
+  background-color: #ed1b3b;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 7px;
+  box-shadow: inset -4px -4px 6px 0 #3e3e3e33,
+    inset 4px 4px 6px 2px hsla(0, 0%, 43%, 0.201);
+  font-size: 1.05rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.side-nav-button:hover {
+  padding: 9px;
+  margin: 18px 0;
+  transition: ease 0.2s;
+}
+
+.side-nav-menu-heading {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.side-nav-menu-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 15px;
+  border-radius: 8px;
+  color: #353535;
+}
+.side-nav-menu-option:hover {
+  cursor: pointer;
+  background-color: #ffe8e8;
+}
+.side-nav-menu-option-selected {
+  background-color: #ffd3d3;
+  font-weight: 500;
+  color: #ed1b3b;
+}
+
+.side-nav-bottom {
+  text-align: center;
+  padding: 8px;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: inset -4px -4px 6px 0 #7b7b7b33,
+    inset 4px 4px 6px 2px hsla(0, 0%, 43%, 0.201);
+  background-color: #ed1b3b;
+  color: #fff;
+}
+
+.side-nav-bottom:hover {
+  cursor: pointer;
+  transition: ease-in-out .2s;
+  padding: 10px;
+}
